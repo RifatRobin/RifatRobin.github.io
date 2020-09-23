@@ -1,0 +1,507 @@
+$desktop: 1920px;
+$leptop_HiDPI: 1440px;
+$leptop_with_touch_MDPI: 1280px;
+$one_plus_w: 1080px;
+$one_plus_h: 2400px;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(-93deg, #f8bfbf 20%, #bc9df7 80%);
+}
+.back {
+  @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+    z-index: 1;
+    text-decoration: none;
+    box-sizing: content-box;
+    outline: none;
+    position: relative;
+    top: 2rem;
+    right: -2rem;
+    width: 100px;
+    height: auto;
+  }
+
+  @media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+    z-index: 1;
+    // text-decoration: none;
+    // box-sizing: content-box;
+    outline: none;
+    position: relative;
+    top: 2rem;
+    right: -2rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.tarea {
+  clear: both;
+  h1 {
+    @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+      position: relative;
+      bottom: 3rem;
+      text-transform: uppercase;
+    }
+    @media screen and (max-width: $leptop_with_touch_MDPI) {
+      position: relative;
+      bottom: 3rem;
+      text-transform: uppercase;
+    }
+    @media screen and (min-width: $leptop_with_touch_MDPI) {
+      position: relative;
+      bottom: 3rem;
+      text-transform: uppercase;
+    }
+  }
+  .iarea {
+    @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+      border-radius: 48px;
+      width: 300px;
+      padding: 100px 100px;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-align: center;
+      color: white;
+      background-color: rgba(56, 55, 63, 0.5);
+      justify-content: center;
+      ::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+    } //finish
+
+    @media screen and (max-width: $leptop_with_touch_MDPI) {
+      border-radius: 48px;
+      width: 300px;
+      padding: 100px 100px;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-align: center;
+      color: white;
+      background-color: rgba(56, 55, 63, 0.5);
+      justify-content: center;
+      ::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+    } //finish
+    @media screen and (min-width: $leptop_with_touch_MDPI) {
+      border-radius: 48px;
+      width: 300px;
+      padding: 100px 100px;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-align: center;
+      color: white;
+      background-color: rgba(56, 55, 63, 0.5);
+      justify-content: center;
+      ::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+    } //finish
+    @media screen and (min-width: $leptop_with_touch_MDPI) {
+      border-radius: 48px;
+      width: 300px;
+      padding: 100px 100px;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-align: center;
+      color: white;
+      background-color: rgba(56, 55, 63, 0.5);
+      justify-content: center;
+      ::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+    } //finish
+
+    // @media screen and (min-height: $one_plus_h) {
+    //   border-radius: 48px;
+    //   width: 300px;
+    //   padding: 50px 100px;
+    //   position: absolute;
+    //   top: 30%;
+    //   right: 50%;
+    //   transform: translate(50%, -50%);
+    //   text-align: center;
+    //   color: white;
+    //   background-color: rgba(56, 55, 63, 0.5);
+    //   justify-content: center;
+    //   ::placeholder {
+    //     color: white;
+    //     opacity: 0.5;
+    //   }
+    // } //finish
+
+    .uname,
+    .pword {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        position: relative;
+        background: none;
+
+        justify-items: center;
+        text-align: center;
+        border-radius: 25px;
+        padding: 17px 30px;
+        border: 1px solid white;
+        color: white;
+        clear: both;
+        outline: none;
+        ::placeholder {
+          color: white;
+          opacity: 1;
+        }
+        &:hover {
+          padding: 17px 45px;
+          transition: 0.25s;
+          border: 1px solid rgb(25, 255, 102);
+        }
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        background: none;
+
+        justify-items: center;
+        text-align: center;
+        border-radius: 25px;
+        padding: 17px 30px;
+        border: 1px solid white;
+        color: white;
+        clear: both;
+        outline: none;
+        ::placeholder {
+          color: white;
+          opacity: 1;
+        }
+        &:hover {
+          padding: 17px 45px;
+          transition: 0.25s;
+          border: 1px solid rgb(25, 255, 102);
+        }
+      } //finish
+
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        background: none;
+
+        justify-items: center;
+        text-align: center;
+        border-radius: 25px;
+        padding: 17px 30px;
+        border: 1px solid white;
+        color: white;
+        clear: both;
+        outline: none;
+        ::placeholder {
+          color: white;
+          opacity: 1;
+        }
+        &:hover {
+          padding: 17px 45px;
+          transition: 0.25s;
+          border: 1px solid rgb(25, 255, 102);
+        }
+      } //finish
+    }
+
+    .uname {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        margin-top: 50px;
+        position: relative;
+        bottom: 4rem;
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        margin-top: 50px;
+        position: relative;
+        bottom: 4rem;
+      } //finish
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        margin-top: 50px;
+        position: relative;
+        bottom: 4rem;
+      } //finish
+    }
+
+    .pword {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        margin-top: 20px;
+        position: relative;
+        bottom: 3rem;
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        margin-top: 20px;
+        position: relative;
+        bottom: 3rem;
+      } //finish
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        margin-top: 20px;
+        position: relative;
+        bottom: 3rem;
+      } //finish
+    }
+
+    .login {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        position: relative;
+        top: -40px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        &:hover {
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        top: -40px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        &:hover {
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        top: -40px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        &:hover {
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+    }
+    .fpw {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        text-decoration: none;
+        color: white;
+        .fp {
+          color: white;
+          text-align: center;
+          position: relative;
+          box-sizing: content-box;
+          top: 0rem;
+          font-size: 15px;
+          font-weight: 110;
+          clear: both;
+          &:hover {
+            color: rgb(89, 253, 144);
+          }
+        }
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        text-decoration: none;
+        color: white;
+        .fp {
+          color: white;
+          text-align: center;
+          position: relative;
+          box-sizing: content-box;
+          top: 0rem;
+          font-size: 15px;
+          font-weight: 110;
+          clear: both;
+          &:hover {
+            color: rgb(89, 253, 144);
+          }
+        }
+      } //finish
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        text-decoration: none;
+        color: white;
+        .fp {
+          color: white;
+          text-align: center;
+          position: relative;
+          box-sizing: content-box;
+          top: 0rem;
+          font-size: 15px;
+          font-weight: 110;
+          clear: both;
+          &:hover {
+            color: rgb(89, 253, 144);
+          }
+        }
+      } //finish
+    }
+
+    .or {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        color: white;
+        text-align: center;
+        position: relative;
+        box-sizing: content-box;
+        top: 0rem;
+        font-size: 15px;
+        font-weight: 110px;
+        clear: both;
+        &:hover {
+          color: rgb(89, 242, 253);
+        }
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        color: white;
+        text-align: center;
+        position: relative;
+        box-sizing: content-box;
+        top: 0rem;
+        font-size: 15px;
+        font-weight: 110px;
+        clear: both;
+        &:hover {
+          color: rgb(89, 242, 253);
+        }
+      } //finish
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        color: white;
+        text-align: center;
+        position: relative;
+        box-sizing: content-box;
+        top: 0rem;
+        font-size: 15px;
+        font-weight: 110px;
+        clear: both;
+        &:hover {
+          color: rgb(89, 242, 253);
+        }
+      } //finish
+    }
+
+    .signup {
+      @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+        position: relative;
+        top: -10px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        .sg {
+          text-decoration: none;
+          color: white;
+        }
+        &:hover {
+          color: rgb(182, 255, 255);
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+
+      @media screen and (max-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        top: -10px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        .sg {
+          text-decoration: none;
+          color: white;
+        }
+        &:hover {
+          color: rgb(182, 255, 255);
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+      @media screen and (min-width: $leptop_with_touch_MDPI) {
+        position: relative;
+        top: -10px;
+        margin-top: 20px;
+        clear: both;
+        padding: 10px 25px;
+        border-radius: 25px;
+        border: 1px solid white;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 17px;
+        box-sizing: content-box;
+        letter-spacing: 4px;
+        text-decoration: none;
+        .sg {
+          text-decoration: none;
+          color: white;
+        }
+        &:hover {
+          color: rgb(182, 255, 255);
+          background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+          transition: 0.25s;
+          clear: both;
+        }
+      } //finish
+    }
+  }
+}

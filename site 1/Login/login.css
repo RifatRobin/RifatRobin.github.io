@@ -1,0 +1,669 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(-93deg, #f8bfbf 20%, #bc9df7 80%);
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .back {
+    z-index: 1;
+    text-decoration: none;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    outline: none;
+    position: relative;
+    top: 2rem;
+    right: -2rem;
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1280px) {
+  .back {
+    z-index: 1;
+    outline: none;
+    position: relative;
+    top: 2rem;
+    right: -2rem;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.tarea {
+  clear: both;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea h1 {
+    position: relative;
+    bottom: 3rem;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea h1 {
+    position: relative;
+    bottom: 3rem;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea h1 {
+    position: relative;
+    bottom: 3rem;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea {
+    border-radius: 48px;
+    width: 300px;
+    padding: 100px 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 55, 63, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarea .iarea ::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea :-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea {
+    border-radius: 48px;
+    width: 300px;
+    padding: 100px 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 55, 63, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarea .iarea ::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea :-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea {
+    border-radius: 48px;
+    width: 300px;
+    padding: 100px 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 55, 63, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarea .iarea ::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea :-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea {
+    border-radius: 48px;
+    width: 300px;
+    padding: 100px 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    -webkit-transform: translate(50%, -50%);
+            transform: translate(50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(56, 55, 63, 0.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tarea .iarea ::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea :-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::-ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .tarea .iarea ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .uname,
+  .tarea .iarea .pword {
+    position: relative;
+    background: none;
+    justify-items: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 17px 30px;
+    border: 1px solid white;
+    color: white;
+    clear: both;
+    outline: none;
+  }
+  .tarea .iarea .uname ::-webkit-input-placeholder,
+  .tarea .iarea .pword ::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname :-ms-input-placeholder,
+  .tarea .iarea .pword :-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::-ms-input-placeholder,
+  .tarea .iarea .pword ::-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::placeholder,
+  .tarea .iarea .pword ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname:hover,
+  .tarea .iarea .pword:hover {
+    padding: 17px 45px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    border: 1px solid #19ff66;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .uname,
+  .tarea .iarea .pword {
+    position: relative;
+    background: none;
+    justify-items: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 17px 30px;
+    border: 1px solid white;
+    color: white;
+    clear: both;
+    outline: none;
+  }
+  .tarea .iarea .uname ::-webkit-input-placeholder,
+  .tarea .iarea .pword ::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname :-ms-input-placeholder,
+  .tarea .iarea .pword :-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::-ms-input-placeholder,
+  .tarea .iarea .pword ::-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::placeholder,
+  .tarea .iarea .pword ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname:hover,
+  .tarea .iarea .pword:hover {
+    padding: 17px 45px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    border: 1px solid #19ff66;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .uname,
+  .tarea .iarea .pword {
+    position: relative;
+    background: none;
+    justify-items: center;
+    text-align: center;
+    border-radius: 25px;
+    padding: 17px 30px;
+    border: 1px solid white;
+    color: white;
+    clear: both;
+    outline: none;
+  }
+  .tarea .iarea .uname ::-webkit-input-placeholder,
+  .tarea .iarea .pword ::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname :-ms-input-placeholder,
+  .tarea .iarea .pword :-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::-ms-input-placeholder,
+  .tarea .iarea .pword ::-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname ::placeholder,
+  .tarea .iarea .pword ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  .tarea .iarea .uname:hover,
+  .tarea .iarea .pword:hover {
+    padding: 17px 45px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    border: 1px solid #19ff66;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .uname {
+    margin-top: 50px;
+    position: relative;
+    bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .uname {
+    margin-top: 50px;
+    position: relative;
+    bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .uname {
+    margin-top: 50px;
+    position: relative;
+    bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .pword {
+    margin-top: 20px;
+    position: relative;
+    bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .pword {
+    margin-top: 20px;
+    position: relative;
+    bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .pword {
+    margin-top: 20px;
+    position: relative;
+    bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .login {
+    position: relative;
+    top: -40px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .login:hover {
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .login {
+    position: relative;
+    top: -40px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .login:hover {
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .login {
+    position: relative;
+    top: -40px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .login:hover {
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .fpw {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .fpw .fp {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110;
+    clear: both;
+  }
+  .tarea .iarea .fpw .fp:hover {
+    color: #59fd90;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .fpw {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .fpw .fp {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110;
+    clear: both;
+  }
+  .tarea .iarea .fpw .fp:hover {
+    color: #59fd90;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .fpw {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .fpw .fp {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110;
+    clear: both;
+  }
+  .tarea .iarea .fpw .fp:hover {
+    color: #59fd90;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .or {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110px;
+    clear: both;
+  }
+  .tarea .iarea .or:hover {
+    color: #59f2fd;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .or {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110px;
+    clear: both;
+  }
+  .tarea .iarea .or:hover {
+    color: #59f2fd;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .or {
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    top: 0rem;
+    font-size: 15px;
+    font-weight: 110px;
+    clear: both;
+  }
+  .tarea .iarea .or:hover {
+    color: #59f2fd;
+  }
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .tarea .iarea .signup {
+    position: relative;
+    top: -10px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .signup .sg {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .signup:hover {
+    color: #b6ffff;
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .tarea .iarea .signup {
+    position: relative;
+    top: -10px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .signup .sg {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .signup:hover {
+    color: #b6ffff;
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tarea .iarea .signup {
+    position: relative;
+    top: -10px;
+    margin-top: 20px;
+    clear: both;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 17px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    letter-spacing: 4px;
+    text-decoration: none;
+  }
+  .tarea .iarea .signup .sg {
+    text-decoration: none;
+    color: white;
+  }
+  .tarea .iarea .signup:hover {
+    color: #b6ffff;
+    background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    clear: both;
+  }
+}
+/*# sourceMappingURL=login.css.map */
