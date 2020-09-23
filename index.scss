@@ -1,0 +1,382 @@
+$desktop: 1920px;
+$leptop_HiDPI: 1440px;
+$leptop_with_touch_MDPI: 1280px;
+$one_plus: 1080 px;
+$ipad: 1024px;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(-93deg, #f8bfbf 20%, #bc9df7 80%);
+  box-sizing: content-box;
+  display: block;
+}
+
+.svgimg {
+  // margin-right: auto;
+  // margin-bottom: auto;
+  // position: relative;
+  // padding: 0px;
+  // margin: 0px;
+  // top: 120px;
+  // right: -0px;
+  // -webkit-transform: scaleX(-1);
+  @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+    position: relative;
+    top: 190px;
+    right: -0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  //for leptop
+  @media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+    position: relative;
+    top: 100px;
+    right: -0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  //for leptop with mdpi screen
+  @media screen and (max-width: $leptop_with_touch_MDPI) and (min-width: $one_plus) {
+    position: relative;
+    top: 100px;
+    right: -0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  @media screen and (max-width: 1280px) {
+    position: relative;
+    top: 100px;
+    right: -0px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  img {
+    //for  desktop
+    @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+      position: fixed;
+      top: 4px;
+      width: 65%;
+    }
+    //for leptop
+    @media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+      position: fixed;
+      top: 120px;
+      width: 65%;
+    }
+    @media screen and (max-width: 1280px) {
+      position: fixed;
+      top: 120px;
+      width: 65%;
+    }
+  }
+}
+
+// .parent {
+@media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+  li {
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 3rem;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    letter-spacing: 5px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    a {
+      text-decoration: none;
+      color: White;
+      &:hover {
+        color: yellow;
+      }
+    }
+    &:hover {
+      border: 2px solid #28f193;
+      transition: 0.25s ease-out;
+    }
+  }
+}
+// }
+
+@media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+  li {
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 3rem;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    letter-spacing: 5px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    a {
+      text-decoration: none;
+      color: White;
+      &:hover {
+        color: yellow;
+      }
+    }
+    &:hover {
+      border: 2px solid #28f193;
+      transition: 0.25s ease-out;
+    }
+  }
+}
+//for leptop with mdpi screen
+@media screen and (max-width: $leptop_with_touch_MDPI) and (min-width: $one_plus) {
+  li {
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 3rem;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    letter-spacing: 5px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    a {
+      text-decoration: none;
+      color: White;
+      &:hover {
+        color: yellow;
+      }
+    }
+    &:hover {
+      border: 2px solid #28f193;
+      transition: 0.25s ease-out;
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  li {
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 3rem;
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    letter-spacing: 5px;
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    a {
+      text-decoration: none;
+      color: White;
+      &:hover {
+        color: yellow;
+      }
+    }
+    &:hover {
+      border: 2px solid #28f193;
+      transition: 0.25s ease-out;
+    }
+  }
+}
+
+.btnlg {
+  display: flex;
+  justify-content: flex-end;
+
+  .login {
+    //for desktop
+    @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+      position: relative;
+      padding: 1rem 3rem;
+      right: 8rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .lgn {
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+    //for leptop hdpi
+    @media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+      position: relative;
+      padding: 1rem 60px;
+      right: 6rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .lgn {
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+    //for leptop mdpi
+    @media screen and (max-width: $leptop_with_touch_MDPI) and (min-width: $one_plus) {
+      position: relative;
+      padding: 1rem 2rem;
+      right: 8rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .lgn {
+        text-decoration: none;
+        font-size: 15px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 5px;
+      }
+    }
+
+    @media screen and (max-width: 1280px) {
+      position: relative;
+      padding: 1rem 3rem;
+      right: 5rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .lgn {
+        text-decoration: none;
+        font-size: 15px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 5px;
+      }
+    }
+    &:hover {
+      @media screen {
+        box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+          0 2px 5px 0 rgba(134, 124, 224, 0.74);
+        color: #d3fcb8;
+        font-size: 15px;
+        background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+        transition: 0.25s;
+      }
+    }
+  }
+  .signup {
+    @media screen and (max-width: $desktop) and (min-width: $leptop_HiDPI) {
+      position: relative;
+      padding: 1rem 40px;
+      right: 5rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .sgp {
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+    @media screen and (max-width: $leptop_HiDPI) and (min-width: $leptop_with_touch_MDPI) {
+      position: relative;
+      padding: 1rem 3rem;
+      right: 3rem;
+      border-radius: 3rem;
+      border: none;
+      background: #f57f85;
+      outline: none;
+      .sgp {
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+    @media screen and (max-width: $leptop_with_touch_MDPI) and (min-width: $one_plus) {
+      position: relative;
+      padding: 1rem 2rem;
+      right: 8rem;
+      border-radius: 3rem;
+      border: none;
+      outline: none;
+      background: #f57f85;
+      .sgp {
+        text-decoration: none;
+        font-size: 20px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+
+    @media screen and (max-width: 1280px) {
+      position: relative;
+      padding: 1rem 2rem;
+      right: 3rem;
+      border-radius: 3rem;
+      border: none;
+      outline: none;
+      background: #f57f85;
+      .sgp {
+        text-decoration: none;
+        font-size: 15px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: white;
+        letter-spacing: 7px;
+      }
+    }
+    &:hover {
+      @media screen {
+        box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+          0 2px 5px 0 rgba(134, 124, 224, 0.74);
+        color: #d3fcb8;
+        font-size: 20px;
+        background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
+        transition: 0.25s;
+      }
+    }
+  }
+}

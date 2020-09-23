@@ -1,0 +1,2 @@
+Here i am using only html & css.
+This website will be responsive.
