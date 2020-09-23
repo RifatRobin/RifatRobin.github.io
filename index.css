@@ -3,7 +3,7 @@ body {
   padding: 0px;
   background: linear-gradient(-93deg, #f8bfbf 20%, #bc9df7 80%);
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   display: block;
 }
 
@@ -204,8 +204,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
@@ -294,8 +294,10 @@ body {
 
 @media screen {
   .btnlg .login:hover {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74), 0 2px 5px 0 rgba(134, 124, 224, 0.74);
-            box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74), 0 2px 5px 0 rgba(134, 124, 224, 0.74);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+      0 2px 5px 0 rgba(134, 124, 224, 0.74);
+    box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+      0 2px 5px 0 rgba(134, 124, 224, 0.74);
     color: #d3fcb8;
     font-size: 15px;
     background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
@@ -390,8 +392,10 @@ body {
 
 @media screen {
   .btnlg .signup:hover {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74), 0 2px 5px 0 rgba(134, 124, 224, 0.74);
-            box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74), 0 2px 5px 0 rgba(134, 124, 224, 0.74);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+      0 2px 5px 0 rgba(134, 124, 224, 0.74);
+    box-shadow: 0 2px 5px 0 rgba(134, 124, 224, 0.74),
+      0 2px 5px 0 rgba(134, 124, 224, 0.74);
     color: #d3fcb8;
     font-size: 20px;
     background: linear-gradient(120deg, #bc9df7 20%, #f8bfbf 80%);
